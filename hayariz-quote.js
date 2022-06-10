@@ -1,0 +1,42 @@
+function showQuotation(){
+var Quotation=new Array() 
+Quotation[0] = "Everyone is born like a white paper that has not been stained. Smart & Stupid is the work of us, our families and the environment in inking the ink on the paper. But, don't blame them if you feel left behind. Blame yourself for not wanting to find a way Go out..";
+Quotation[1] = "Humans Can Change Their Lives By Changing Their Attitudes Of Thought.";
+Quotation[2] = "My Life Changed When I Started To Believe In Me.";
+Quotation[3] = "The biggest mistake we make in life is always being afraid to make mistakes.";
+Quotation[4] = "Who says to be rich and prosperous you have to have a lot of capital? If you look carefully at the opportunities that exist, there are many gaps that can be a way to achieve the desired prosperity. All it takes is the will to be successful." ;
+Quotation[5] = "Science without religion is lame, religion without science is blind. - Albert Einstein";
+Quotation[6] = "The biggest risk is not doing something.";
+Quotation[7] = "If you change your mindset, you will get a different vision.";
+Quotation[8] = "Every problem has a solution.";
+Quotation[9] = "Success doesn't just happen, it takes dreams, vision and action to get it.";
+Quotation[10] = "Whatever people say about you, if it's for good then follow it. If it's ridicule, then throw it away - Blake.";
+Quotation[11] = "Man has to keep up with technology or he will die - Blak.";
+Quotation[12] = "Every soul will taste death. Therefore we as humans are obliged to make the best use of time. \"(Surah Al-Anbiya (21): 35)\"";
+Quotation [13] = "Every person was born Like a White Paper That is unblemished. Smart & Stupid was the work of Us, Family and Environment in the incised Such Ink On Paper. But Don't Blame Those If You're Feeling Left. Blame Yourself That Will not Find the Way Exiting..";
+Quotation [14] = "Man Can Change His life if they are Changing Attitude of Mind.";
+Quotation [15] = "My Life Changed When I Begin To Believe In Me.";
+Quotation [16] = "Biggest Mistakes That We Do In Life Is Always Afraid Make Mistakes.";
+Quotation [17] = "Who told you to be rich and prosper must have a lot of capital? If you carefully look at the opportunities that exist, there are many loopholes that could be a way to achieve the desired prosperity. All it takes only a willingness to be successful." ;
+Quotation [18] = "Science without religion is a lame, religion without science is blind. - Albert Einstein";
+Quotation [19] = "The biggest risk is not doing anything.";
+Quotation [20] = "If you change the way you think, then you will get a different vision.";
+Quotation [21] = "Every problem is certainly no solution.";
+Quotation [22] = "to successful not just happen, he needs a dream, vision, and action to get it.";
+Quotation [23] = "Whatever people say about you, if it's for good then follow. If it is a mockery, then dispose - Blak.";
+Quotation [24] = "Man must keep up with technology or he will die - Blak.";
+Quotation [25] = "Every soul will taste of death and therefore we as humans are to make use of time as possible. \"(Surat al-Anbiya (21): 35)\".";
+Quotation [26] = "Think ABCD! Life is from [B] to [D], it mean from BORN to DIE. Between is [C] for CHOICE. Our life is a matter of Choice. Live well and it will never go WRONG!";
+Quotation [27] = "Patience with Family is LOVE. Patience with Other is RESPECT. Patience with Self is CONFIDENCE. Patience with ALLAH is FAITH";
+Quotation [28] = "ONLY I CAN CHANGE MY LIFE. NO ONE CAN DO IT FOR ME!";
+Quotation [29] = "The Two Most Importance Day in Your Life are The Day You Are BORN and The Day You Find Out WHY -Mark Twain";
+Quotation [30] = "Never Give Up. If it's good it's good, if it's bad it's an experience, the more experiences the better your life!";
+Quotation [31] = "Difficulties in life will not destroy you, but awaken you to bring out the potential that is in you.";
+Quotation [32] = "Don't care how good or bad your life is. Every day when you wake up Be grateful, because there is still someone there who is worse than your fate struggling to survive.";
+Quotation [33] = "When you are faced with a difficult situation, don't say \"Why me?\" but say \"Give it to me!\".";
+Quotation [34] = "Don't say it's a DREAM but say it's a PLAN!";
+Quotation [35] = "Chicken Egg, If it is broken from the outside then Life Stops. If it is broken from within then Life Begins. Something Big happens from within, so Start Change From Yourself!";
+var Q = Quotation.length;
+var whichQuotation=Math.round(Math.random()*(Q-1));
+document.write(Quotation[whichQuotation]);
+}
